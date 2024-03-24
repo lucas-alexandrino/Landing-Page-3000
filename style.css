@@ -1,0 +1,159 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+/* Um estilo de div  um estilo de div, #432BDA;*/
+.base1 {
+  height: auto;
+  position: relative; 
+  border : 1px black solid;
+  background-color: #233e14;
+}
+
+.base2 {
+  margin: 0px;
+  height: 178px;
+  position: relative; 
+  border : 1px black solid;
+  background-color: #C7BFBF;
+}
+
+.base3 {
+
+  height: 178px;
+  position: relative; 
+  border : 1px black solid;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.base4 {
+
+  height: 444px;
+  position: relative; 
+  border : 1px black solid;
+  background-color: #233e14;
+}
+
+
+.texto {
+  text-align: left;
+  margin-right: 900px;
+}
+
+.icones {
+  max-height: 100px;
+  max-width: 100px;
+  
+}
+.imagem {
+  margin-left: 900px;
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar {
+  background-color: #1a2d10;
+  height: 50px;
+}
+
+#rodape {
+  height: 100px;
+  background-color: #182a0f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333;
+  width: 300 px;
+  
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ff6600;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e55d00;
+}
+
+/* 
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+
+  }
+  p {
+    font-size: 18px;
+
+  }
+  .cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .cta-btn:hover {
+    background-color: #0056b3;
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+</style>
+*/
+
+
