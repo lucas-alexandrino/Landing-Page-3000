@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,49 +8,101 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
+
 <body>
-  <nav id="navbar"> <h1>ThermoSip</h1></nav>
-  <div class="base1"> 
+  <nav id="navbar">
+    <h1>ThermoSip</h1>
+  </nav>
+  <div id="testeee">
+    <div class="base1">
 
-    <p class = "texto">Lorem ipsum dolor sit amet. Qui exercitationem corporis et distinctio quis et dolorem unde eos praesentium maxime est velit consequatur sed repellat ipsum! Sit galisum exercitationem et culpa molestias est sunt quibusdam ut perspiciatis pariatur qui voluptatibus sint. Aut voluptatem praesentium ex provident iure ea accusantium iusto. Ut culpa temporibus et iusto porro est atque esse et accusantium voluptatem hic veritatis harum.
+      <p class="texto">"Experimente a revolução no seu dia a dia com o ThermoSip! Diga adeus aos momentos de sede ou de
+        desejo por uma bebida quente fora de casa. Com a capacidade de refrigerar e aquecer seus líquidos favoritos em
+        minutos, o ThermoSip oferece conveniência incomparável onde quer que você esteja. Seja no escritório, em casa,
+        ou durante suas viagens, leve consigo o poder da temperatura perfeita a cada gole. Faça parte dessa jornada rumo
+        à praticidade, economia de energia e sustentabilidade. Adquira o seu ThermoSip hoje e transforme a maneira como
+        você bebe!</p>
 
-    Sed laboriosam consequatur aut consectetur officia qui labore odit. Ex laboriosam culpa qui delectus libero est quae enim sit beatae omnis!
 
-    Eum nostrum asperiores aut enim dolor est vitae totam et tenetur similique a facilis voluptatum et voluptas rerum sed pariatur modi. Et aliquam cupiditate ut nulla perspiciatis sit quidem totam in quibusdam dignissimos? Eos fugit ducimus eum corporis dicta aut nesciunt nobis sit totam aliquid et possimus quod est quam unde. Aut omnis assumenda vel iure reiciendis et eligendi dolorem aut nobis modi aut enim adipisci sed debitis officiis?</p>
-    <img  class = "imagem" src="img/copo.png"> 
 
-     
+    </div>
+
+    <div>
+      <img class="imagem" src="img/copo.png">
+    </div>
+
   </div>
 
-  <div class="base3" > 
-    <img  class= "icones" src="img/cold.png"> 
-    <img  class= "icones" src="img/folha.png"> 
-    <img  class= "icones" src="img/transporte.png"> 
-    <img  class= "icones" src="img/plastico.png"> 
-    <img  class= "icones" src="img/sustentavel.png"> 
+  <div class="base3">
+    <img id="cold" src="img/cold.png" onclick="descricao()">
+    <img id="folha" src="img/folha.png" onclick="descricao1()">
+    <img id="transporte" src="img/transporte.png" onclick="descricao2()">
+    <img id="plastico" src="img/plastico.png" onclick="descricao3()">
+    <img id="energia" src="img/sustentavel.png" onclick="descricao4()">
 
   </div>
 
-  <div class="base2"> 
 
-    <h1> Texto 2</h1>
-    
+
+
+
+  <script>
+    function descricao() {
+
+      document.getElementById("cold").addEventListener("click", descricao);
+
+      document.getElementById("texto").innerHTML = "<h1>Refrigeração e Aquecimento Instantâneos</h1> <br> <p>O ThermoSip é capaz de resfriar ou aquecer líquidos em questão de minutos, proporcionando a temperatura ideal para sua bebida a qualquer momento.</p>";
+    }
+    function descricao1() {
+
+      document.getElementById("folha").addEventListener("click", descricao);
+
+      document.getElementById("texto").innerHTML = "<h1>Economia de Energia</h1> <br> <p>Graças à sua tecnologia avançada de isolamento térmico, o ThermoSip consome menos energia do que aparelhos convencionais de refrigeração e aquecimento, ajudando a reduzir os custos de energia.</p>";
+    }
+    function descricao2() {
+
+      document.getElementById("transporte").addEventListener("click", descricao);
+
+      document.getElementById("texto").innerHTML = "<h1>Portabilidade</h1> <br> <p>Seu design compacto e leve torna o ThermoSip perfeito para uso em casa, no escritório, durante viagens ou em qualquer lugar que você deseje desfrutar de uma bebida na temperatura ideal.</p>";
+    }
+    function descricao3() {
+
+      document.getElementById("plastico").addEventListener("click", descricao);
+
+      document.getElementById("texto").innerHTML = "<h1>Sabor Puro e Fresco</h1> <br> <p>O copo metálico do ThermoSip preserva o sabor original da sua bebida, sem interferências de materiais plásticos ou outros revestimentos que podem alterar o gosto.</p>";
+    }
+    function descricao4() {
+
+      document.getElementById("energia").addEventListener("click", descricao);
+
+      document.getElementById("texto").innerHTML = "<h1>Sustentabilidade</h1> <br> <p>Ao investir no ThermoSip, você está optando por uma alternativa sustentável aos copos descartáveis e aos aparelhos elétricos de consumo de energia mais elevada, contribuindo para um estilo de vida mais ecológico.</p>";
+    }
+
+  </script>
+
+
+
+  <div class="base2">
+
+    <p id="texto"> </p>
+
+  </div>
+  </div>
+  <div class="base4">
+    <div id="formulario" class="container">
+      <h2>Experimente ThermoSip hoje mesmo!</h2>
+      <form action="#" method="post">
+        <input type="text" name="nome" placeholder="Seu nome" required><br>
+        <input type="email" name="email" placeholder="Seu e-mail" required><br>
+        <button type="submit" class="cta-btn">Enviar</button>
+      </form>
     </div>
   </div>
-  <div class="base4"> 
-      <div id="formulario" class="container">
-        <h2>Experimente ThermoSip hoje mesmo!</h2>
-        <form action="#" method="post">
-          <input type="text" name="nome" placeholder="Seu nome" required><br>
-          <input type="email" name="email" placeholder="Seu e-mail" required><br>
-          <button type="submit" class="cta-btn">Enviar</button>
-        </form>
-      </div>
-  </div>
-  
+
   <footer id="rodape">
     <p>© 2023 Useisso. Todos os direitos reservados.</p>
   </footer>
- 
+
 </body>
+
 </html>

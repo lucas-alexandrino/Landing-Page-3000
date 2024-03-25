@@ -4,9 +4,9 @@ html {
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 
@@ -14,53 +14,56 @@ html {
 /* Um estilo de div  um estilo de div, #432BDA;*/
 .base1 {
   height: auto;
-  position: relative; 
-  border : 1px black solid;
+  position: relative;
+  border: 1px black solid;
   background-color: #233e14;
+  border-right: 0px;
 }
 
 .base2 {
   margin: 0px;
   height: 178px;
-  position: relative; 
-  border : 1px black solid;
+  position: relative;
+  border: 1px black solid;
   background-color: #C7BFBF;
 }
 
 .base3 {
 
   height: 178px;
-  position: relative; 
-  border : 1px black solid;
+  padding: 20px;
+  position: relative;
+  border: 1px black solid;
   background-color: white;
   display: flex;
   justify-content: space-evenly;
-  
+
 }
 
 .base4 {
 
   height: 444px;
-  position: relative; 
-  border : 1px black solid;
+  position: relative;
+  border: 1px black solid;
   background-color: #233e14;
 }
 
 
 .texto {
-  text-align: left;
-  margin-right: 900px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .icones {
   max-height: 100px;
   max-width: 100px;
-  
+
 }
+
 .imagem {
-  margin-left: 900px;
   display: flex;
   flex-direction: row;
+  background-color: #233e14;
 }
 
 #navbar {
@@ -82,8 +85,9 @@ html {
   border-radius: 10px;
   background-color: #333;
   width: 300 px;
-  
+
 }
+
 h2 {
   font-size: 24px;
   margin-bottom: 20px;
@@ -111,6 +115,11 @@ button {
 button:hover {
   background-color: #e55d00;
 }
+
+#testeee {
+  display: flex;
+}
+
 
 /* 
 <style>
@@ -155,5 +164,3 @@ button:hover {
   }
 </style>
 */
-
-
