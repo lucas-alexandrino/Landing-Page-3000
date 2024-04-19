@@ -10,10 +10,15 @@
 </head>
 
 <body>
-  <nav id="navbar">
-    <h1>ThermoSip</h1>
-  </nav>
-  <div id="testeee">
+  <header>
+    <h1 id="title">ThermoSip</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#vantagens">Vantagens</a>
+      <a href="#">Sobre</a>
+    </nav>
+  </header>
+  <div class="container">
     <div class="base1">
 
       <p class="texto">"Experimente a revolução no seu dia a dia com o ThermoSip! Diga adeus aos momentos de sede ou de
@@ -22,9 +27,6 @@
         ou durante suas viagens, leve consigo o poder da temperatura perfeita a cada gole. Faça parte dessa jornada rumo
         à praticidade, economia de energia e sustentabilidade. Adquira o seu ThermoSip hoje e transforme a maneira como
         você bebe!</p>
-
-
-
     </div>
 
     <div>
@@ -33,7 +35,7 @@
 
   </div>
 
-  <div class="base3">
+  <div class="base3" id="vantagens">
     <img id="cold" src="img/cold.png" onclick="descricao()">
     <img id="folha" src="img/folha.png" onclick="descricao1()">
     <img id="transporte" src="img/transporte.png" onclick="descricao2()">
@@ -88,9 +90,9 @@
 
   </div>
   </div>
-  <div class="base4">
-    <div id="formulario" class="container">
-      <h2>Experimente ThermoSip hoje mesmo!</h2>
+  <div class="base4" id="testeform">
+    <div class="formulario" id="inicio">
+      <h2>Experimente ThermoSip hoje mesmo!</h2><br>
       <form action="#" method="post">
         <input type="text" name="nome" placeholder="Seu nome" required><br>
         <input type="email" name="email" placeholder="Seu e-mail" required><br>
@@ -99,7 +101,7 @@
     </div>
   </div>
 
-  <footer id="rodape">
+  <footer id="rodape" >
     <p>© 2023 Useisso. Todos os direitos reservados.</p>
   </footer>
 
